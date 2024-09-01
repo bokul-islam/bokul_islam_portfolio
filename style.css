@@ -16,13 +16,10 @@ body,html{
 html{
     scroll-behavior: smooth;
 }
-span{
+h5{
     font-size: 25px;
     font-weight: 600;
-    padding: 10px;
-    position: relative;
-    top: 20px;
-    left: 20px;
+    display: inline-block;margin: 20px !important;
 }
 /*about section start here*/
 .about_section{
