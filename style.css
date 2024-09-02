@@ -55,7 +55,7 @@ h1{
     background-color:  #ff5e31c2;
     color: rgb(0, 0, 0);
     transform:scale(.9);
-    transition: 1s;
+    transition: .5s;
 }
 i{
    padding: 16px;
@@ -69,7 +69,7 @@ i:hover{
     background-color:  #ff5e319c !important;
     color: rgb(3, 3, 3);
     transform: rotate(360deg) scale(.9);
-    transition: 1s;
+    transition: .5s;
 }
 .content2{
     width: 100%;
@@ -358,6 +358,9 @@ nav{
     height: 80px;
     width: 100%;
     background-color:  #FF5C31;
+    position: fixed;
+    top: 0;
+    box-shadow: 2px 3px 10px rgb(138, 138, 138);
 }
 h2{
     font-size: 28px;
